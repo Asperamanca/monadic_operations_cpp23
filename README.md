@@ -4,7 +4,7 @@
 - [Functional Programming in C++, by Ivan Čukić](https://www.manning.com/books/functional-programming-in-c-plus-plus?a_aid=FPinCXX&a_bid=441f12cc)
 - [Category Theory for Programmers, by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)
 ### Blog posts and articles
-- [Using Monads in C++ to Solve Constraints (Part 1 of a 4-article series)](https://bartoszmilewski.com/2015/05/11/using-monads-in-c-to-solve-constraints-1-the-list-monad/)
+- [Using Monads in C++ to Solve Constraints (Part 1 of a 4-part series)](https://bartoszmilewski.com/2015/05/11/using-monads-in-c-to-solve-constraints-1-the-list-monad/)
 - [Monads in C++ ](https://bartoszmilewski.com/2011/07/11/monads-in-c/)
 - [You probably wrote half a monad by accident](https://gieseanw.wordpress.com/2024/06/25/you-probably-wrote-half-a-monad-by-accident/)
 - [C++17: I See a Monad in Your Future!](https://bartoszmilewski.com/2014/02/26/c17-i-see-a-monad-in-your-future/)
