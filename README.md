@@ -17,6 +17,16 @@
 - [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland](https://www.youtube.com/watch?v=QoaVRQvA6hI)
 - [C++23: An Overview of Almost All New and Updated Features - Marc Gregoire](https://www.youtube.com/watch?v=Cttb8vMuq-Y)
 - ['Declarative Thinking, Declarative Practice' - Kevlin Henney](https://www.youtube.com/watch?v=nrVIlhtoE3Y)
+## Papers
+- [The One Ranges Proposal (P0896R4)](https://wg21.link/P0896R4)
+- [Monadic operations for std::optional (P0798R8)](https://wg21.link/P0798R8)
+- [std::expected (P0323R12)](https://wg21.link/P0323R12)
+- [Monadic operations for std::expected](https://wg21.link/P2505R5)
+- [A Proposal to add stacktrace library (P0881R7))](https://wg21.link/P0881R7)
+- [Formatted output (P2093R14)](https://wg21.link/P2093R14)
+- [Text Formatting (P0645R10)](https://wg21.link/P0645R10)
+
 ## Slides
+
 
 ## Code examples
