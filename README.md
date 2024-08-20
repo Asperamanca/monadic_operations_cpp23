@@ -26,6 +26,7 @@
 - [Formatted output (P2093R14)](https://wg21.link/P2093R14)
 - [Text Formatting (P0645R10)](https://wg21.link/P0645R10)
 - [Give std::optional Range Support (P3168R2)](https://wg21.link/P3168R2)
+- [std::execution: sender-receiver model of execution control (P2300)](https://wg21.link/P2300R10)
 ## Other
 - [C++23 Compiler Support](https://en.cppreference.com/w/cpp/compiler_support/23)
 
