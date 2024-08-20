@@ -21,7 +21,7 @@
 - [The One Ranges Proposal (P0896R4)](https://wg21.link/P0896R4)
 - [Monadic operations for std::optional (P0798R8)](https://wg21.link/P0798R8)
 - [std::expected (P0323R12)](https://wg21.link/P0323R12)
-- [Monadic operations for std::expected](https://wg21.link/P2505R5)
+- [Monadic operations for std::expected (P2505)](https://wg21.link/P2505R5)
 - [A Proposal to add stacktrace library (P0881R7)](https://wg21.link/P0881R7)
 - [Formatted output (P2093R14)](https://wg21.link/P2093R14)
 - [Text Formatting (P0645R10)](https://wg21.link/P0645R10)
