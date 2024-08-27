@@ -17,6 +17,7 @@
 - [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland](https://www.youtube.com/watch?v=QoaVRQvA6hI)
 - [C++23: An Overview of Almost All New and Updated Features - Marc Gregoire](https://www.youtube.com/watch?v=Cttb8vMuq-Y)
 - ['Declarative Thinking, Declarative Practice' - Kevlin Henney](https://www.youtube.com/watch?v=nrVIlhtoE3Y)
+- [Understanding the Filter View to Use it Right](https://www.youtube.com/watch?v=jR3WE-hAhCc)
 ## Papers
 - [The One Ranges Proposal (P0896)](https://wg21.link/P0896R4)
 - [Monadic operations for std::optional (P0798)](https://wg21.link/P0798R8)
