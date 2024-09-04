@@ -13,6 +13,8 @@
 - [std::execution, Sender/Receiver, and the Continuation Monad](https://sdowney.org/index.php/2021/10/03/stdexecution-sender-receiver-and-the-continuation-monad/)
 - [Asynchronous APIs in Qt 6](https://www.qt.io/blog/asynchronous-apis-in-qt-6)
 ### Videos
+- [Functional C++ - Gašper Ažman - C++Now 2024](https://www.youtube.com/watch?v=bHxvfwTnJhg)
+  Goes far beyond my talk, both in depth and speed
 - [Monads in Modern C++ - Georgi Koyrushki & Alistair Fisher](https://www.youtube.com/watch?v=cE_YaFMhTK8)
 - [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland](https://www.youtube.com/watch?v=QoaVRQvA6hI)
 - [C++23: An Overview of Almost All New and Updated Features - Marc Gregoire](https://www.youtube.com/watch?v=Cttb8vMuq-Y)
