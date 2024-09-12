@@ -4,7 +4,7 @@
 - [Functional Programming in C++, by Ivan Čukić](https://www.manning.com/books/functional-programming-in-c-plus-plus?a_aid=FPinCXX&a_bid=441f12cc)
      * My primer for functional programming. A bit dated (targets C++17), but explains a lot of functional concepts in an understandable way
 - [Category Theory for Programmers, by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)
-     * I have only gotten partway into it, but this looks to be a gold mine if you want to learn the theory behind functional programming
+     * I have only gotten partway into it, but this looks like a gold mine if you want to learn the theory behind functional programming
 ### Blog posts and articles
 - [Using Monads in C++ to Solve Constraints (Part 1 of a 4-part series)](https://bartoszmilewski.com/2015/05/11/using-monads-in-c-to-solve-constraints-1-the-list-monad/)
 - [Monads in C++ ](https://bartoszmilewski.com/2011/07/11/monads-in-c/)
