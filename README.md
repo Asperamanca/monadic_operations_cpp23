@@ -19,7 +19,7 @@
      * Explains monadic operations on QtConcurrent
 ### Videos
 - [Functional C++ - Gašper Ažman - C++Now 2024](https://www.youtube.com/watch?v=bHxvfwTnJhg)
-     * Excellent resource on functional programming with C++. Goes far beyond my talk, both in depth and speed
+     * Presents a library that brings the usage of monads in C++ to new levels. Type-checked multi-dispatch with compile-time errors. Monads of monads. Goes far beyond my talk, both in depth and speed
 - [Monads in Modern C++ - Georgi Koyrushki & Alistair Fisher](https://www.youtube.com/watch?v=cE_YaFMhTK8)
      * This talk was the inspiration to give my own take on this topic and develop a talk
 - [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland](https://www.youtube.com/watch?v=QoaVRQvA6hI)
