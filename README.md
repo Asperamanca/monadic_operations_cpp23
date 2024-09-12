@@ -2,11 +2,14 @@
 ## References
 ### Books
 - [Functional Programming in C++, by Ivan Čukić](https://www.manning.com/books/functional-programming-in-c-plus-plus?a_aid=FPinCXX&a_bid=441f12cc)
+     * My primer for functional programming. A bit dated (targets C++17), but explains a lot of functional concepts in an understandable way
 - [Category Theory for Programmers, by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)
+     * I have only gotten partway into it, but this looks to be a gold mine if you want to learn the theory behind functional programming
 ### Blog posts and articles
 - [Using Monads in C++ to Solve Constraints (Part 1 of a 4-part series)](https://bartoszmilewski.com/2015/05/11/using-monads-in-c-to-solve-constraints-1-the-list-monad/)
 - [Monads in C++ ](https://bartoszmilewski.com/2011/07/11/monads-in-c/)
 - [You probably wrote half a monad by accident](https://gieseanw.wordpress.com/2024/06/25/you-probably-wrote-half-a-monad-by-accident/)
+     * Short and entertaining, yet educational
 - [C++17: I See a Monad in Your Future!](https://bartoszmilewski.com/2014/02/26/c17-i-see-a-monad-in-your-future/)
 - [Monads/Writer monad](https://rosettacode.org/wiki/Monads/Writer_monad)
 - [How to Use Monadic Operations for `std::optional` in C++23](https://www.cppstories.com/2023/monadic-optional-ops-cpp23/)
@@ -16,11 +19,17 @@
 - [Functional C++ - Gašper Ažman - C++Now 2024](https://www.youtube.com/watch?v=bHxvfwTnJhg)
      * Excellent resource on functional programming with C++. Goes far beyond my talk, both in depth and speed
 - [Monads in Modern C++ - Georgi Koyrushki & Alistair Fisher](https://www.youtube.com/watch?v=cE_YaFMhTK8)
+     * This talk was the inspiration to give my own take on this topic and develop a talk
 - [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland](https://www.youtube.com/watch?v=QoaVRQvA6hI)
+     * So far my best primer if you want to use std::ranges
 - [C++23: An Overview of Almost All New and Updated Features - Marc Gregoire](https://www.youtube.com/watch?v=Cttb8vMuq-Y)
+     * Overview over C++23, really goes through the list and explains every feature briefly
 - ['Declarative Thinking, Declarative Practice' - Kevlin Henney](https://www.youtube.com/watch?v=nrVIlhtoE3Y)
+     * Mostly motivational talk why you should write more declarative code (and also how), not specific for C++. Entertaining.
 - [Understanding the Filter View to Use it Right](https://www.youtube.com/watch?v=jR3WE-hAhCc)
+     * std::views::filter has lots of traps built-in. This talk helps you understand and avoid them.
 - [Rappel: Compose Algorithms, Not Iterators - Google's Alternative to Ranges](https://www.youtube.com/watch?v=itnyR9j8y6E)
+     * Presents a library that utilizes an alternative approach to std::ranges. Since the library is not open-sourced (as of writing), the most important takeaway is the motivation not to use ranges in the first place, and that's quite interesting.
 ## Papers
 - [The One Ranges Proposal (P0896)](https://wg21.link/P0896R4)
 - [Monadic operations for std::optional (P0798)](https://wg21.link/P0798R8)
