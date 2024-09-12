@@ -7,14 +7,16 @@
      * I have only gotten partway into it, but this looks like a gold mine if you want to learn the theory behind functional programming
 ### Blog posts and articles
 - [Using Monads in C++ to Solve Constraints (Part 1 of a 4-part series)](https://bartoszmilewski.com/2015/05/11/using-monads-in-c-to-solve-constraints-1-the-list-monad/)
+     * Explains in detail how to combine two monads to solve a non-trivial puzzle, and highlights the benefits of the solution. Weaves in a lot of theoretical background.
 - [Monads in C++ ](https://bartoszmilewski.com/2011/07/11/monads-in-c/)
 - [You probably wrote half a monad by accident](https://gieseanw.wordpress.com/2024/06/25/you-probably-wrote-half-a-monad-by-accident/)
      * Short and entertaining, yet educational
-- [C++17: I See a Monad in Your Future!](https://bartoszmilewski.com/2014/02/26/c17-i-see-a-monad-in-your-future/)
 - [Monads/Writer monad](https://rosettacode.org/wiki/Monads/Writer_monad)
+     * Brief explanation of the writer monad, with example implementations in different languages
 - [How to Use Monadic Operations for `std::optional` in C++23](https://www.cppstories.com/2023/monadic-optional-ops-cpp23/)
-- [std::execution, Sender/Receiver, and the Continuation Monad](https://sdowney.org/index.php/2021/10/03/stdexecution-sender-receiver-and-the-continuation-monad/)
+     * Blog post explaining the monadic interface of std::optional in C++23. If you'd like to read another explanation about that, this is a good place to start.
 - [Asynchronous APIs in Qt 6](https://www.qt.io/blog/asynchronous-apis-in-qt-6)
+     * Explains monadic operations on QtConcurrent
 ### Videos
 - [Functional C++ - Gašper Ažman - C++Now 2024](https://www.youtube.com/watch?v=bHxvfwTnJhg)
      * Excellent resource on functional programming with C++. Goes far beyond my talk, both in depth and speed
