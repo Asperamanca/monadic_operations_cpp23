@@ -1,4 +1,7 @@
 # Monadic Operations in C++23 (and beyond)
+## Slides
+## Code examples
+[Source code](source/Readme.md)
 ## References
 ### Books
 - [Functional Programming in C++, by Ivan Čukić](https://www.manning.com/books/functional-programming-in-c-plus-plus?a_aid=FPinCXX&a_bid=441f12cc)
@@ -45,7 +48,4 @@
 ## Other
 - [C++23 Compiler Support](https://en.cppreference.com/w/cpp/compiler_support/23)
 
-## Slides
 
-
-## Code examples
