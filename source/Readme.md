@@ -2,13 +2,13 @@
 ## Build and run locally
 Just download the "source" folder and open CMakeLists.txt in a cmake-capable IDE of your choice.
 Some features will only work with pretty new compilers (where necessary, I coded workarounds for older compilers)
-Compiler versions tested:
+### Compiler versions tested:
 - GCC 13 (tested via MinGW)
 - GCC 14
 - Clang 17
 - Clang 18
 - MSVC 19.40 (VS 2022)
-Minimum compiler version required:
+### Minimum compiler version required:
 - GCC 13
 - Clang 17
 - MSVC 19.33
