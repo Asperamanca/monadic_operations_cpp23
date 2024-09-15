@@ -44,12 +44,6 @@ std::optional<int> CPointerMonad::getSiblingValueSquared(CNode* pNodeStart, cons
         .and_then(std::mem_fn(&CNode::getChild),siblingKey)
         .and_then(getNodeNumericValue)
         .transform(makeSquared);
-
-    // return CPtr(pNodeStart)
-    //     .and_then(CPointerMonad::getNodeParent)
-    //     .and_then(std::bind_back(CPointerMonad::getNodeChild,siblingKey))
-    //     .and_then(getNodeNumericValue)
-    //     .transform(makeSquared);
 }
 
 int CPointerMonad::makeSquared(const int value)

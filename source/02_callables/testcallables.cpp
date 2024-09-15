@@ -72,7 +72,7 @@ void CTestCallables::_01_freeFunction()
     auto strings = v
                    | std::views::transform(makeSquared)
                    | std::views::transform(dblToStr);
-    printOutput(strings);
+    printStringRange(strings);
 }
 
 void CTestCallables::_02_staticClassFunction()
@@ -81,7 +81,7 @@ void CTestCallables::_02_staticClassFunction()
     auto strings = v
                    | std::views::transform(CConversions::makeSquaredStatic)
                    | std::views::transform(CConversions::dblToStrStatic);
-    printOutput(strings);
+    printStringRange(strings);
 }
 
 void CTestCallables::_03_inlineLambda()
@@ -90,7 +90,7 @@ void CTestCallables::_03_inlineLambda()
     auto strings = v
                    | std::views::transform([](const double& value){return value * value;})
                    | std::views::transform([](const double& value){return std::format("{:}",value);});
-    printOutput(strings);
+    printStringRange(strings);
 }
 
 void CTestCallables::_04_inlineLambdaInjectParameters()
@@ -101,7 +101,7 @@ void CTestCallables::_04_inlineLambdaInjectParameters()
     auto strings = v
                    | std::views::transform([power](const double& value){return std::pow(value, power);})
                    | std::views::transform([](const double& value){return std::format("{:}",value);});
-    printOutput(strings);
+    printStringRange(strings);
 }
 
 void CTestCallables::_05_bindBackInjectParameter()
@@ -113,7 +113,7 @@ void CTestCallables::_05_bindBackInjectParameter()
     auto strings = v
                    | std::views::transform(std::bind_back(std::pow<double,double>,power))
                    | std::views::transform([](const double& value){return std::format("{:}",value);});
-    printOutput(strings);
+    printStringRange(strings);
 #else
     printlnWrapper("Your compiler does not support bind_back");
 #endif
@@ -126,7 +126,7 @@ void CTestCallables::_06_memFnMemberFunctionObj()
                     | std::views::transform(std::mem_fn(&CValue::getValue))
                     | std::views::transform(makeSquared)
                     | std::views::transform(dblToStr);
-    printOutput(strings);
+    printStringRange(strings);
 }
 
 void CTestCallables::_07_inlineLambdaMemberFunctionObj()
@@ -136,7 +136,7 @@ void CTestCallables::_07_inlineLambdaMemberFunctionObj()
                    | std::views::transform([](const CValue& obj){return obj.getValue();})
                    | std::views::transform(makeSquared)
                    | std::views::transform(dblToStr);
-    printOutput(strings);
+    printStringRange(strings);
 }
 
 void CTestCallables::_08_bindMemberFunctionParam()
@@ -147,7 +147,7 @@ void CTestCallables::_08_bindMemberFunctionParam()
     auto strings = v
                    | std::views::transform(std::bind_front(&CConversions::makeSquaredMember, &conv))
                    | std::views::transform(std::bind_front(&CConversions::dblToStrMember, &conv));
-    printOutput(strings);
+    printStringRange(strings);
 }
 
 void CTestCallables::_09_inlineLambdaMemberFunctionParam()
@@ -158,7 +158,7 @@ void CTestCallables::_09_inlineLambdaMemberFunctionParam()
     auto strings = v
                    | std::views::transform([&conv](const double& value){return conv.makeSquaredMember(value);})
                    | std::views::transform([&conv](const double& value){return conv.dblToStrMember(value);});
-    printOutput(strings);
+    printStringRange(strings);
 }
 
 void CTestCallables::_10_namedLambda()
@@ -177,7 +177,7 @@ void CTestCallables::_10_namedLambda()
     auto strings = v
                    | std::views::transform(makeSquaredLocalLambda)
                    | std::views::transform(dblToStrLocalLambda);
-    printOutput(strings);
+    printStringRange(strings);
 }
 
 void CTestCallables::_11_functionObject()
@@ -189,7 +189,7 @@ void CTestCallables::_11_functionObject()
     auto strings = v
                    | std::views::transform(makeSquaredFunctionObject)
                    | std::views::transform(dblToStrFunctionObject);
-    printOutput(strings);
+    printStringRange(strings);
 }
 
 void CTestCallables::_12_stdFunction()
@@ -205,7 +205,7 @@ void CTestCallables::_12_stdFunction()
         auto strings = v
                        | std::views::transform(fMakeSquared)
                        | std::views::transform(fDblToStr);
-        printOutput(strings);
+        printStringRange(strings);
     }
 
     // std::function from static functions
@@ -217,7 +217,7 @@ void CTestCallables::_12_stdFunction()
         auto strings = v
                        | std::views::transform(fMakeSquared)
                        | std::views::transform(fDblToStr);
-        printOutput(strings);
+        printStringRange(strings);
     }
 
     // std::function from inline lambda
@@ -229,7 +229,7 @@ void CTestCallables::_12_stdFunction()
         auto strings = v
                        | std::views::transform(fMakeSquared)
                        | std::views::transform(fDblToStr);
-        printOutput(strings);
+        printStringRange(strings);
     }
 
     //...and so on, and so forth
@@ -250,13 +250,13 @@ void CTestCallables::_13_templateInvokable()
     // With free functions
     {
         auto strings = getStringsViaTemplateInvokables(v,makeSquared,dblToStr);
-        printOutput(strings);
+        printStringRange(strings);
     }
 
     // With static functions
     {
         auto strings = getStringsViaTemplateInvokables(v,CConversions::makeSquaredStatic,CConversions::dblToStrStatic);
-        printOutput(strings);
+        printStringRange(strings);
     }
 
     // With inline lambda
@@ -264,7 +264,7 @@ void CTestCallables::_13_templateInvokable()
         auto strings = getStringsViaTemplateInvokables(v,
                                                        [](const double& value){return value * value;},
                                                        [](const double& value){return std::format("{:}",value);});
-        printOutput(strings);
+        printStringRange(strings);
     }
     //...and so on, and so forth
 }

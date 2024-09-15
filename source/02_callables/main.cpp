@@ -1,6 +1,9 @@
 
 #include "testcallables.h"
 
+// Shows how to pass different kinds of callables into std::views::transform
+//  (should work with most comparable interfaces, not just std::views)
+
 int main(int argc, char* argv[])
 {
     CTestCallables::_01_freeFunction();

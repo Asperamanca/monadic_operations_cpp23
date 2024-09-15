@@ -9,6 +9,7 @@ add_executable(01_Functor
   main.cpp
   ../common/compilerinfo.h
   ../common/printutils.h
+  testfunctor.h testfunctor.cpp
 )
 
 include(GNUInstallDirs)
