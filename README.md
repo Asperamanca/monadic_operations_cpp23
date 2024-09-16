@@ -18,6 +18,8 @@
      * Brief explanation of the writer monad, with example implementations in different languages
 - [How to Use Monadic Operations for `std::optional` in C++23](https://www.cppstories.com/2023/monadic-optional-ops-cpp23/)
      * Blog post explaining the monadic interface of std::optional in C++23. If you'd like to read another explanation about that, this is a good place to start.
+- [C++23: The stacktrace library](https://www.sandordargo.com/blog/2022/09/21/cpp23-stacktrace-library)
+     * More about std::stacktrace
 - [Asynchronous APIs in Qt 6](https://www.qt.io/blog/asynchronous-apis-in-qt-6)
      * Explains monadic operations on QtConcurrent
 ### Videos
