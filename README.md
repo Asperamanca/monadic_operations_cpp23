@@ -11,7 +11,6 @@
 ### Blog posts and articles
 - [Using Monads in C++ to Solve Constraints (Part 1 of a 4-part series)](https://bartoszmilewski.com/2015/05/11/using-monads-in-c-to-solve-constraints-1-the-list-monad/)
      * Explains in detail how to combine two monads to solve a non-trivial puzzle, and highlights the benefits of the solution. Weaves in a lot of theoretical background.
-- [Monads in C++ ](https://bartoszmilewski.com/2011/07/11/monads-in-c/)
 - [You probably wrote half a monad by accident](https://gieseanw.wordpress.com/2024/06/25/you-probably-wrote-half-a-monad-by-accident/)
      * Short and entertaining, yet educational
 - [Monads/Writer monad](https://rosettacode.org/wiki/Monads/Writer_monad)
