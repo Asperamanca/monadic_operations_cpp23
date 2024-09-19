@@ -25,6 +25,8 @@
 ### Videos
 - [Functional C++ - Gašper Ažman - C++Now 2024](https://www.youtube.com/watch?v=bHxvfwTnJhg)
      * Presents a library that brings the usage of monads in C++ to new levels. Type-checked multi-dispatch with compile-time errors. Monads of monads. Goes far beyond my talk, both in depth and speed
+- [Ben Deane “Easy to Use, Hard to Misuse: Declarative Style in C++”](https://www.youtube.com/watch?v=2ouxETt75R4)
+     * Covers a much wider scope: Why should we strive for a more declarative coding style, and how can we achieve it in C++? With interesting excursions into the history of the language. Well researched, though slightly dated (from 2018).
 - [Monads in Modern C++ - Georgi Koyrushki & Alistair Fisher](https://www.youtube.com/watch?v=cE_YaFMhTK8)
      * The inspiration for my own talk. Covers similar ground, but explains things a bit differently. Which one is better? Your call!
 - [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland](https://www.youtube.com/watch?v=QoaVRQvA6hI)
