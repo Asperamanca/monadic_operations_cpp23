@@ -1,5 +1,6 @@
 # Monadic Operations in C++23 (and beyond)
 ## Slides
+[PDF](MonadicOperationsInCpp23.pdf)
 ## Code examples
 [Source code](source/Readme.md)
 ## References
