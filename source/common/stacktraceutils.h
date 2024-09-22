@@ -2,6 +2,7 @@
 #define STACKTRACEUTILS_H
 
 #include "compilerinfo.h"
+#include <vector>
 
 #ifdef SUPPORTS_STACKTRACE
 #include <stacktrace>
