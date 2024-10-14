@@ -54,4 +54,7 @@
 ## Other
 - [C++23 Compiler Support](https://en.cppreference.com/w/cpp/compiler_support/23)
 
+Compiler support of mentioned C++20/23 features![image](https://github.com/user-attachments/assets/c51328d0-b3a8-4d0d-b05f-8d9e08cf51dc)
+
+
 
