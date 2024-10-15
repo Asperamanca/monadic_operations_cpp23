@@ -41,6 +41,7 @@ class CTestCallables
 {
 public:
     static void _01_freeFunction();
+    static void _01b_freeFunctionOverloaded();
     static void _02_staticClassFunction();
     static void _03_inlineLambda();
     static void _04_inlineLambdaInjectParameters();

@@ -16,6 +16,16 @@ double makeSquared(const double value)
     return std::pow(value, 2.0);
 }
 
+double makeSquaredOverloaded(const double value)
+{
+    return std::pow(value, 2.0);
+}
+
+int makeSquaredOverloaded(const int value)
+{
+    return value*value;
+}
+
 
 double CConversions::makeSquaredStatic(const double value)
 {
@@ -71,6 +81,15 @@ void CTestCallables::_01_freeFunction()
     auto v = std::vector{1.5,2.0,2.5};
     auto strings = v
                    | std::views::transform(makeSquared)
+                   | std::views::transform(dblToStr);
+    printStringRange(strings);
+}
+
+void CTestCallables::_01b_freeFunctionOverloaded()
+{
+    auto v = std::vector{1.5,2.0,2.5};
+    auto strings = v
+                   | std::views::transform([](auto&& val){return makeSquaredOverloaded(val);})
                    | std::views::transform(dblToStr);
     printStringRange(strings);
 }

@@ -49,31 +49,25 @@ std::vector<CDiagnosic> compile(const CFile& input)
                                    CDiagnosic::createWarning(input, "Some warning")};
 }
 
-std::vector<CFile> getFilesInFolder(const CFolder& input)
+std::vector<CFile> getFilesInProject(const CProject& input)
 {
     // Use for tracing:
-    //printlnWrapper("Called getFilesInFolder with {:}",input.m_FolderPath);
+    //printlnWrapper("Called getFilesInProject with {:}",input.m_ProjectFile);
 
-    if (input.m_FolderPath.empty())
+    if (input.m_SourceFiles.empty())
     {
         return {};
     }
-    // Let's fake it with test data
-    return getTestFiles(input.m_FolderPath);
+    return input.m_SourceFiles;
 }
 
 // Functions that provide dummy test data
 
-std::vector<CFolder> getTestFolders()
+std::vector<CProject> getTestProjects()
 {
-    return {{CFolder{.m_FolderPath = "c:/dev/proj"}},
-            {CFolder{.m_FolderPath = "c:/dev/fooproj"}},
-            {CFolder{.m_FolderPath = "c:/dev/barproj"}}};
+    return {{CProject{.m_SourceFiles = {CFile{"c:/dev/proj/x.cpp"},CFile{"c:/dev/proj/y.cpp"},CFile{"c:/dev/proj/z.cpp"}}}},
+            {CProject{.m_SourceFiles = {CFile{"c:/dev/proj/test/t1.cpp"},CFile{"c:/dev/proj/test/t2.cpp"}}}},
+            {CProject{.m_SourceFiles = {CFile{"c:/dev/proj/shared/common.cpp"}}}}};
 }
 
-std::vector<CFile> getTestFiles(const std::string& folderPath)
-{
-    return std::vector<CFile>{{.m_FilePath=std::format("{:}/x.cpp",folderPath)},
-                              {.m_FilePath=std::format("{:}/y.cpp",folderPath)},
-                              {.m_FilePath=std::format("{:}/z.cpp",folderPath)}};
-}
+

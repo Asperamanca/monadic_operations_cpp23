@@ -1,10 +1,10 @@
 #include "classicloop.h"
 
-void CClassicLoop::compileAll(const std::vector<CFolder>& folders)
+void CClassicLoop::compileAll(const std::vector<CProject>& folders)
 {
     for(const auto& folder : folders)
     {
-        auto files = getFilesInFolder(folder);
+        auto files = getFilesInProject(folder);
 
         for(const auto& file : files)
         {

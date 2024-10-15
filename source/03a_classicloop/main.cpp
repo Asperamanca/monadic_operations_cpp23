@@ -5,7 +5,7 @@
 // Classic loop implementation - compare to 03b_rangemonad
 int main(int argc, char* argv[])
 {
-    CClassicLoop::compileAll(getTestFolders());
+    CClassicLoop::compileAll(getTestProjects());
 
     return 0;
 }

@@ -7,17 +7,19 @@
 
 // Shared file for example 01 (Functor section)
 
-class CFolder // : public CNoisy  // Enable to see constructor/destructor calls
-{
-public:
-    std::string m_FolderPath{};
-};
 
 class CFile // : public CNoisy // Enable to see constructor/destructor calls
 {
 public:
     std::string m_FilePath{};
 };
+
+class CProject // : public CNoisy  // Enable to see constructor/destructor calls
+{
+public:
+    std::vector<CFile> m_SourceFiles;
+};
+
 
 enum class EDiagnosticType : int
 {
@@ -39,9 +41,8 @@ public:
 
 void printDiagnostic(const CDiagnosic& info);
 std::vector<CDiagnosic> compile(const CFile& input);
-std::vector<CFile> getFilesInFolder(const CFolder& input);
+std::vector<CFile> getFilesInProject(const CProject& input);
 
-std::vector<CFolder> getTestFolders();
-std::vector<CFile> getTestFiles(const std::string& folderPath);
+std::vector<CProject> getTestProjects();
 
 #endif // DIAGNOSTICINFO_H

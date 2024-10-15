@@ -5,7 +5,7 @@
 // Range monadimplementation - compare to 03a_classicloop
 int main(int argc, char* argv[])
 {
-    CRangeMonad::compileAll(getTestFolders());
+    CRangeMonad::compileAll(getTestProjects());
 
     return 0;
 }
