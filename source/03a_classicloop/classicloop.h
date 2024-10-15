@@ -7,7 +7,7 @@
 class CClassicLoop
 {
 public:
-    static void compileAll(const std::vector<CProject>& folders);
+    static void compileAll(const std::vector<CProject>& projects);
 };
 
 #endif // CLASSICLOOP_H
