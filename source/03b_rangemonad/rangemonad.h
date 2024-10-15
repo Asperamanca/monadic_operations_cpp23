@@ -7,7 +7,7 @@
 class CRangeMonad
 {
 public:
-    static void compileAll(const std::vector<CProject>& folders);
+    static void compileAll(const std::vector<CProject>& projects);
 };
 
 #endif // RANGEMONAD_H
