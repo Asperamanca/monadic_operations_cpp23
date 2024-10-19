@@ -48,38 +48,21 @@ bool COptionalMonad::isNegative(const int value)
 
 std::optional<bool> COptionalMonad::isNumericTableCellValueNegative(const CElementDatabase& db, const ElementKey& key, const CCellLocation& cellLocation)
 {
-#ifdef SUPPORTS_BIND_BACK
-    return getElement(db, key)
-            .and_then(getTable)
-            .and_then(std::bind_back(&getCell,cellLocation))
-            .and_then(getNumericCellValue)
-            .transform(isNegative)
-        .or_else(log<bool>);
-#else
     return getElement(db, key)
         .and_then(getTable)
         .and_then([cellLocation](const CTableData& tableData) {return getCell(tableData, cellLocation);})
         .and_then(getNumericCellValue)
         .transform(isNegative)
         .or_else(log<bool>);
-#endif
 }
 
-std::optional<int> COptionalMonad::getNumericTableCellValue(const CElementDatabase& db, const ElementKey& key, const CCellLocation& cellLocation)
+std::optional<int> COptionalMonad::getNumericTableCellValue(const CElementDatabase& db, const ElementKey& key, const CCellLocation& location)
 {
-#ifdef SUPPORTS_BIND_BACK
     return getElement(db, key)
         .and_then(getTable)
-        .and_then(std::bind_back(&getCell,cellLocation))
+        .and_then([location](const CTableData& table) {return getCell(table, location);})
         .and_then(getNumericCellValue)
         .or_else(log<int>);
-#else
-    return getElement(db, key)
-        .and_then(getTable)
-        .and_then([cellLocation](const CTableData& tableData) {return getCell(tableData, cellLocation);})
-        .and_then(getNumericCellValue)
-        .or_else(log<int>);
-#endif
 }
 
 std::optional<std::strong_ordering> COptionalMonad::compare(const std::optional<int>& left, const std::optional<int>& right)

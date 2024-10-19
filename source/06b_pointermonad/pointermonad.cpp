@@ -4,8 +4,8 @@
 
 bool CPointerMonad::isObjectValid(CPtr<CDatabase*> pDb, const CContainerKey keyContainer, const CObjectKey keyObject)
 {
-    return (pDb.and_then(&CDatabase::getContainer,keyContainer)
-               .and_then(&CContainer::getObject, keyObject));
+    return (pDb.and_then_args(&CDatabase::getContainer,keyContainer)
+               .and_then_args(&CContainer::getObject, keyObject));
 }
 
 CNode* CPointerMonad::getNodeParent(CNode& node)
@@ -40,8 +40,8 @@ std::optional<int> CPointerMonad::getNodeNumericValue(CNode& node)
 std::optional<int> CPointerMonad::getSiblingValueSquared(CNode* pNodeStart, const CNodeKey& siblingKey)
 {
     return CPtr(pNodeStart)
-        .and_then(std::mem_fn(&CNode::getParent))
-        .and_then(std::mem_fn(&CNode::getChild),siblingKey)
+        .and_then([](CNode& node){return node.getParent();})
+        .and_then([&siblingKey](CNode& node){return node.getChild(siblingKey);})
         .and_then(getNodeNumericValue)
         .transform(makeSquared);
 }

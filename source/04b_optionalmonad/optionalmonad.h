@@ -20,7 +20,7 @@ private:
     static bool isNegative(const int value);
 
     static std::optional<bool> isNumericTableCellValueNegative(const CElementDatabase& db, const ElementKey& key, const CCellLocation& cellLocation);
-    static std::optional<int> getNumericTableCellValue(const CElementDatabase& db, const ElementKey& key, const CCellLocation& cellLocation);
+    static std::optional<int> getNumericTableCellValue(const CElementDatabase& db, const ElementKey& key, const CCellLocation& location);
     static std::optional<std::strong_ordering> compare(const std::optional<int>& left, const std::optional<int>& right);
 
     static std::optional<bool> isNumericTableCellValueNegativeWithIfs(const CElementDatabase& db, const ElementKey& key, const CCellLocation& cellLocation);

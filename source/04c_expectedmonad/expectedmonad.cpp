@@ -48,38 +48,21 @@ bool CExpectedMonad::isNegative(const int value)
 
 std::expected<bool, CErrorInfo> CExpectedMonad::isNumericTableCellValueNegative(const CElementDatabase& db, const ElementKey& key, const CCellLocation& cellLocation)
 {
-#ifdef SUPPORTS_BIND_BACK
-    return getElement(db, key)
-            .and_then(getTable)
-            .and_then(std::bind_back(&getCell,cellLocation))
-            .and_then(getNumericCellValue)
-            .transform(isNegative)
-        .or_else(log<bool>);
-#else
     return getElement(db, key)
         .and_then(getTable)
         .and_then([cellLocation](const CTableData& tableData) {return getCell(tableData, cellLocation);})
         .and_then(getNumericCellValue)
         .transform(isNegative)
         .or_else(log<bool>);
-#endif
 }
 
 std::expected<int, CErrorInfo> CExpectedMonad::getNumericTableCellValue(const CElementDatabase& db, const ElementKey& key, const CCellLocation& cellLocation)
 {
-#ifdef SUPPORTS_BIND_BACK
-    return getElement(db, key)
-            .and_then(getTable)
-            .and_then(std::bind_back(&getCell,cellLocation))
-            .and_then(getNumericCellValue)
-        .or_else(log<int>);
-#else
     return getElement(db, key)
         .and_then(getTable)
         .and_then([cellLocation](const CTableData& tableData) {return getCell(tableData, cellLocation);})
         .and_then(getNumericCellValue)
         .or_else(log<int>);
-#endif
 }
 
 void CExpectedMonad::testForNegativeNumericValue()
