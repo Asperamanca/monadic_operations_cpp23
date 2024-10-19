@@ -1,4 +1,6 @@
 # Monadic Operations in C++23 (and beyond)
+## Just download everything
+[ZIP](https://github.com/Asperamanca/monadic_operations_cpp23/archive/refs/heads/main.zip)
 ## Slides
 [PDF](MonadicOperationsInCpp23.pdf)
 ## Code examples
