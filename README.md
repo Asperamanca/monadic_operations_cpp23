@@ -20,6 +20,8 @@
      * Brief explanation of the writer monad, with example implementations in different languages
 - [How to Use Monadic Operations for `std::optional` in C++23](https://www.cppstories.com/2023/monadic-optional-ops-cpp23/)
      * Blog post explaining the monadic interface of std::optional in C++23. If you'd like to read another explanation about that, this is a good place to start.
+- [The definite guide to std::expected](https://johnfarrier.com/the-definitive-guide-to-std-expected-in-c/)
+     * Why use std::expected, and lots of examples on how to use it
 - [C++23: The stacktrace library](https://www.sandordargo.com/blog/2022/09/21/cpp23-stacktrace-library)
      * More about std::stacktrace
 - [std::print in C++23](https://vitaut.net/posts/2023/print-in-cpp23/)
