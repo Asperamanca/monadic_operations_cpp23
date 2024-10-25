@@ -55,6 +55,13 @@
 - [Text Formatting (P0645)](https://wg21.link/P0645R10)
 - [Give std::optional Range Support (P3168)](https://wg21.link/P3168R2)
 - [std::execution: sender-receiver model of execution control (P2300)](https://wg21.link/P2300R10)
+## Replacement libraries
+You want to use some of the features I presented, but do not have a new enough compiler and/or standard version?
+There are libraries you can use as replacement.
+*Disclaimer: I don't have first-hand experience with them. Please evaluate whether they fit your use case.*
+- [Ranges v3](https://github.com/ericniebler/range-v3): The library gave the direction for the standardization of ranges, and surpasses C++23 ranges in some functionality
+- [Sy Brand's expected library](https://github.com/TartanLlama/expected): "By far the most popular implementation is Sy Brand’s, with over 500 stars on GitHub and extensive usage." (Quote from [P0323R10 - std::expected](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p0323r10.html#%F0%9F%92%9C)
+- [Boost optional](https://www.boost.org/doc/libs/1_86_0/libs/optional/doc/html/index.html): Optional with a monadic interface (look for "map" instead of "and_then", and it's partially missing in the docs)
 ## Other
 - [C++23 Compiler Support](https://en.cppreference.com/w/cpp/compiler_support/23)
 
