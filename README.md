@@ -58,9 +58,10 @@
 ## Replacement libraries
 You want to use some of the features I presented, but do not have a new enough compiler and/or standard version?
 There are libraries you can use as replacement.
-*Disclaimer: I don't have first-hand experience with them. Please evaluate whether they fit your use case.*
+
+*Disclaimer: I don't have first-hand experience with them. Please evaluate whether they fit your use case, and whether they are still actively maintained before using*
 - [Ranges v3](https://github.com/ericniebler/range-v3): The library gave the direction for the standardization of ranges, and surpasses C++23 ranges in some functionality
-- [Sy Brand's expected library](https://github.com/TartanLlama/expected): "By far the most popular implementation is Sy Brand’s, with over 500 stars on GitHub and extensive usage." (Quote from [P0323R10 - std::expected](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p0323r10.html#%F0%9F%92%9C)
+- [Sy Brand's expected library](https://github.com/TartanLlama/expected): "By far the most popular implementation is Sy Brand’s, with over 500 stars on GitHub and extensive usage." (Quote from [P0323R10 - std::expected](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p0323r10.html#%F0%9F%92%9C))
 - [Boost optional](https://www.boost.org/doc/libs/1_86_0/libs/optional/doc/html/index.html): Optional with a monadic interface (look for "map" instead of "and_then", and it's partially missing in the docs)
 - [STX: C++17 & C++ 20 error-handling and utility extensions](https://github.com/lamarrr/STX): Contains an 'optional' and 'expected' implementation with monadic operations
 ## Other
