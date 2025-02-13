@@ -28,6 +28,8 @@
      * Compact article on std::print, and why you might want to prefer it to printf and iostream.
 - [Asynchronous APIs in Qt 6](https://www.qt.io/blog/asynchronous-apis-in-qt-6)
      * Explains monadic operations on QtConcurrent
+- [Design and evolution of C++ future continuations](https://ikriv.com/blog/?p=4916)
+     * About the many attempts to make continuation available in C++. There seems to be a really good chance that P2300 mentioned in the article makes it into C++26
 ### Videos
 - [Functional C++ - Gašper Ažman - C++Now 2024](https://www.youtube.com/watch?v=bHxvfwTnJhg)
      * Presents a library that brings the usage of monads in C++ to new levels. Type-checked multi-dispatch with compile-time errors. Monads of monads. Goes far beyond my talk, both in depth and speed
