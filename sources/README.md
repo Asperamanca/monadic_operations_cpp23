@@ -24,6 +24,8 @@ The code compiler explorer does not support all compilers:
 - clang cannot handle some examples due to lack of stacktrace support
 - GCC 14 works, but needs a special linker flag (-lstdc++exp)
 - Reasonably new version of MSVC also work
+
+In any case, you need to set C++23 as standard version if you want to add compilers.
 If you need more portable code, take a look at the downloadable sources
 ### Main talk examples
 - Errorhandling with Exceptions (briefly shown in introduction) [https://godbolt.org/z/EMPj9nYW5](https://godbolt.org/z/EMPj9nYW5)
