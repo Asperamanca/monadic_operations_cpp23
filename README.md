@@ -5,7 +5,7 @@
 [PDF](MonadicOperationsInCpp23.pdf)
 ## Code examples
 [Source code page](sources/Readme.md)
-[Get me to the compiler explorer links](sources/Readme.md #Compiler explorer links)
+[Get me to the compiler explorer links](sources/Readme.md#compiler-explorer-links)
 ## References by Topic
 ### Functional and Declarative Programming (General and Theory)
 - Book: [Functional Programming in C++, by Ivan Čukić](https://www.manning.com/books/functional-programming-in-c-plus-plus?a_aid=FPinCXX&a_bid=441f12cc)
