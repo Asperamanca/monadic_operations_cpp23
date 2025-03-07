@@ -7,8 +7,10 @@
 #define MOP_SUPPORTS_BIND_BACK
 #endif
 
-#ifdef __cpp_lib_stacktrace
-#define MOP_SUPPORTS_STACKTRACE
+#ifndef __GNUC__    // GCC will report supporting stacktrace, but requires special linker options to deliver
+  #ifdef __cpp_lib_stacktrace
+  #define MOP_SUPPORTS_STACKTRACE
+  #endif
 #endif
 
 #ifdef __cpp_lib_print

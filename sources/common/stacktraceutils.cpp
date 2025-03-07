@@ -18,9 +18,14 @@ std::string formatStacktraceEntry(const std::stacktrace_entry& entry)
 
 std::vector<std::string> formatStacktrace(const std::stacktrace& stacktrace)
 {
-    return stacktrace
-           | std::views::transform(formatStacktraceEntry)
-           | std::ranges::to<std::vector<std::string>>();
+    auto strings =  stacktrace
+           | std::views::transform(formatStacktraceEntry);
+        #ifdef MOP_SUPPORTS_RANGES_TO
+            return std::ranges::to<std::vector<std::string>>(strings);
+        #else
+             return {strings.begin(), strings.end()};
+        #endif
+
 }
 
 void dumpStack(const std::stacktrace& stacktrace)
