@@ -18,6 +18,9 @@ Two examples (Continuation, Continuation & Writer) will only work if you have Qt
 - GCC 13
 - Clang 17
 - MSVC 19.33
+### Notes
+Use of stacktrace is hard-disabled for GCC in downloadable sources. The feature test macro __cpp_lib_stacktrace will report support for stacktrace in GCC, but linking will fail unless you specify -lstdc++exp.
+If you want to enable stacktrace for GCC, remove the protective #ifndef __GNUC__ in compilerinfo.h
 ## Compiler explorer links
 As mentioned above, each example only consists of one file. For that reason, it's typically good to start reading the example from the bottom (main function).
 The code compiler explorer does not support all compilers:
