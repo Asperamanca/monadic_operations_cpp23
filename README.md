@@ -5,6 +5,7 @@
 [PDF](MonadicOperationsInCpp23.pdf)
 ## Code examples
 [Source code page](sources/Readme.md)
+
 [Get me to the compiler explorer links](sources/Readme.md#compiler-explorer-links)
 ## References by Topic
 ### Functional and Declarative Programming (General and Theory)
