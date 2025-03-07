@@ -19,7 +19,7 @@ Two examples (Continuation, Continuation & Writer) will only work if you have Qt
 - Clang 17
 - MSVC 19.33
 ## Compiler explorer links
-_Note: Some compiler explorer links show slightly different (but just as valid) code than the latest presentation. If you want the exactly matching code, please download the sources directly._
+As mentioned above, each example only consists of one file. For that reason, it's typically good to start reading the example from the bottom (main function)
 ### Main talk examples
 - Errorhandling with Exceptions (briefly shown in introduction) [https://godbolt.org/z/EMPj9nYW5](https://godbolt.org/z/EMPj9nYW5)
 - Functor introduction: "Calculate & format area" example - Classic, Hand-written functors and std::ranges::views version: [https://godbolt.org/z/9er1Yq9or](https://godbolt.org/z/9er1Yq9or)
