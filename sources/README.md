@@ -2,7 +2,7 @@
 ## Download sources vs. Compiler Explorer Links
 You can download the sources and build them locally. Or you can follow the compiler explorer links to single examples.
 Here are the main differences:
-- The compiler explorer version needs pretty new compilers to work. For the downloadable source package, I put in some effort so they would run (with some limitations) on compilers that are a few years old.
+- The compiler explorer version needs very new compilers to work. For the downloadable source package, I put in some effort so they would run (with some limitations) on compilers that are a few years old.
 - On compiler explorer, every example is in a single file. This includes the actual example, but all the utilities and helper code to make it work. By comparison, the source packages are better structured, and use shared files where that makes sense
 ## Build and run locally
 Just download the "source" folder and open CMakeLists.txt in a cmake-capable IDE of your choice.
@@ -19,7 +19,12 @@ Two examples (Continuation, Continuation & Writer) will only work if you have Qt
 - Clang 17
 - MSVC 19.33
 ## Compiler explorer links
-As mentioned above, each example only consists of one file. For that reason, it's typically good to start reading the example from the bottom (main function)
+As mentioned above, each example only consists of one file. For that reason, it's typically good to start reading the example from the bottom (main function).
+The code compiler explorer does not support all compilers:
+- clang cannot handle some examples due to lack of stacktrace support
+- GCC 14 works, but needs a special linker flag (-lstdc++exp)
+- Reasonably new version of MSVC also work
+If you need more portable code, take a look at the downloadable sources
 ### Main talk examples
 - Errorhandling with Exceptions (briefly shown in introduction) [https://godbolt.org/z/EMPj9nYW5](https://godbolt.org/z/EMPj9nYW5)
 - Functor introduction: "Calculate & format area" example - Classic, Hand-written functors and std::ranges::views version: [https://godbolt.org/z/9er1Yq9or](https://godbolt.org/z/9er1Yq9or)
