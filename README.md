@@ -1,4 +1,4 @@
-# Monadic Operations in C++23 (and beyond)
+# Safe and Readable Code: Monadic Operations in C++23
 ## Just download everything
 [ZIP](https://github.com/Asperamanca/monadic_operations_cpp23/archive/refs/heads/main.zip)
 ## Slides
@@ -74,5 +74,3 @@ There are libraries you can use as replacement.
 - [Boost optional](https://www.boost.org/doc/libs/1_86_0/libs/optional/doc/html/index.html): Optional with a monadic interface (look for "map" instead of "and_then", and it's partially missing in the docs)
 - [STX: C++17 & C++ 20 error-handling and utility extensions](https://github.com/lamarrr/STX): Contains an 'optional' and 'expected' implementation with monadic operations
 
-
-Compiler support of mentioned C++20/23 features![image](https://github.com/user-attachments/assets/c51328d0-b3a8-4d0d-b05f-8d9e08cf51dc)
