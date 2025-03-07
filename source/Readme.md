@@ -21,21 +21,21 @@ Two examples (Continuation, Continuation & Writer) will only work if you have Qt
 ## Compiler explorer links
 _Note: Some compiler explorer links show slightly different (but just as valid) code than the latest presentation. If you want the exactly matching code, please download the sources directly._
 ### Main talk examples
-- Errorhandling with Exceptions (briefly shown in introduction) (https://godbolt.org/z/EMPj9nYW5)[https://godbolt.org/z/EMPj9nYW5]
-- Functor introduction: "Calculate & format area" example - Classic, Hand-written functors and std::ranges::views version: (https://godbolt.org/z/9er1Yq9or)[https://godbolt.org/z/9er1Yq9or]
-- Callables and how to pass them (includes a lot more than the slides): (https://godbolt.org/z/bcEYGYcK3)[https://godbolt.org/z/bcEYGYcK3]
-- Ranges/View Monad: Classic loop version of "Compile and print diagnostics" example: (https://godbolt.org/z/vbqrTWTeT)[https://godbolt.org/z/vbqrTWTeT]
-- Ranges/View Monad: Ranges monad version of "Compile and print diagnostics" example: (https://godbolt.org/z/W5dqnavYc)[https://godbolt.org/z/W5dqnavYc]
-- Pure functions: "getMultipliedView" example: (https://godbolt.org/z/9xbaY6hGe)[https://godbolt.org/z/9xbaY6hGe]
-- Handling Failure: Classic implementation of "Is numeric table cell value negative": (https://godbolt.org/z/fa11WMbdP)[https://godbolt.org/z/fa11WMbdP]
-- Handling Failure: std::optional version (Maybe monad) of "Is numeric table cell value negative": (https://godbolt.org/z/rfW6EM68b)[https://godbolt.org/z/rfW6EM68b]
-- Handling Failure: std::expected version of "Is numeric table cell value negative": (https://godbolt.org/z/rfW6EM68b)[https://godbolt.org/z/rfW6EM68b]: (https://godbolt.org/z/sKGb6qPo9)[https://godbolt.org/z/sKGb6qPo9]
-- "Determine startup language" example (Default "monad") - std::optional::or_else: (https://godbolt.org/z/zz5coz13T)[https://godbolt.org/z/zz5coz13T]
-- Handling Failure: Classic implementation with pointers of "Is numeric table cell value negative": (https://godbolt.org/z/r6vYWrcfx)[https://godbolt.org/z/r6vYWrcfx]
-- Handling Failure: Custom pointer monad version of "Is numeric table cell value negative": (https://godbolt.org/z/hK1oxG8Tx)[https://godbolt.org/z/hK1oxG8Tx]
-- Continuation Monad: "Calculate & format area" (but reeeeaaaly slow): (https://godbolt.org/z/33aaco98c)[https://godbolt.org/z/33aaco98c]
-- Writer Monad: "Calculate & format area": (https://godbolt.org/z/r437Ea7bj)[https://godbolt.org/z/r437Ea7bj]
-- Combine Continuation & Writer Monads: "Calculate & format area" (but reeeeaaaly slow): (https://godbolt.org/z/hbEaWjxj7)[https://godbolt.org/z/hbEaWjxj7]
-- Extra (not in slides): Trace constructor / destructor calls when using "classic function" interface (with out& parameter) (https://godbolt.org/z/Psa6svY1a)[https://godbolt.org/z/Psa6svY1a]
-- Extra (not in slides): Trace constructor / destructor calls when just returning results (https://godbolt.org/z/9W3b9Y815)[https://godbolt.org/z/9W3b9Y815]
-- Extra (not in slides): Why you need perfect forwarding, and what it does: (https://godbolt.org/z/dWMjvofz9)[https://godbolt.org/z/dWMjvofz9]
+- Errorhandling with Exceptions (briefly shown in introduction) [https://godbolt.org/z/EMPj9nYW5](https://godbolt.org/z/EMPj9nYW5)
+- Functor introduction: "Calculate & format area" example - Classic, Hand-written functors and std::ranges::views version: [https://godbolt.org/z/9er1Yq9or](https://godbolt.org/z/9er1Yq9or)
+- Callables and how to pass them (includes a lot more than the slides): [https://godbolt.org/z/bcEYGYcK3](https://godbolt.org/z/bcEYGYcK3)
+- Ranges/View Monad: Classic loop version of "Compile and print diagnostics" example: [https://godbolt.org/z/vbqrTWTeT](https://godbolt.org/z/vbqrTWTeT)
+- Ranges/View Monad: Ranges monad version of "Compile and print diagnostics" example: [https://godbolt.org/z/W5dqnavYc](https://godbolt.org/z/W5dqnavYc)
+- Pure functions: "getMultipliedView" example: [https://godbolt.org/z/9xbaY6hGe](https://godbolt.org/z/9xbaY6hGe)
+- Handling Failure: Classic implementation of "Is numeric table cell value negative": [https://godbolt.org/z/fa11WMbdP](https://godbolt.org/z/fa11WMbdP)
+- Handling Failure: std::optional version (Maybe monad) of "Is numeric table cell value negative": [https://godbolt.org/z/rfW6EM68b](https://godbolt.org/z/rfW6EM68b)
+- Handling Failure: std::expected version of "Is numeric table cell value negative": (https://godbolt.org/z/rfW6EM68b)[https://godbolt.org/z/rfW6EM68b]: [https://godbolt.org/z/sKGb6qPo9](https://godbolt.org/z/sKGb6qPo9)
+- "Determine startup language" example (Default "monad") - std::optional::or_else: [https://godbolt.org/z/zz5coz13T](https://godbolt.org/z/zz5coz13T)
+- Handling Failure: Classic implementation with pointers of "Is numeric table cell value negative": [https://godbolt.org/z/r6vYWrcfx](https://godbolt.org/z/r6vYWrcfx)
+- Handling Failure: Custom pointer monad version of "Is numeric table cell value negative": [https://godbolt.org/z/hK1oxG8Tx](https://godbolt.org/z/hK1oxG8Tx)
+- Continuation Monad: "Calculate & format area" (but reeeeaaaly slow): [https://godbolt.org/z/33aaco98c](https://godbolt.org/z/33aaco98c)
+- Writer Monad: "Calculate & format area": [https://godbolt.org/z/r437Ea7bj](https://godbolt.org/z/r437Ea7bj)
+- Combine Continuation & Writer Monads: "Calculate & format area" (but reeeeaaaly slow): [https://godbolt.org/z/hbEaWjxj7](https://godbolt.org/z/hbEaWjxj7)
+- Extra (not in slides): Trace constructor / destructor calls when using "classic function" interface (with out& parameter) [https://godbolt.org/z/Psa6svY1a](https://godbolt.org/z/Psa6svY1a)
+- Extra (not in slides): Trace constructor / destructor calls when just returning results [https://godbolt.org/z/9W3b9Y815](https://godbolt.org/z/9W3b9Y815)
+- Extra (not in slides): Why you need perfect forwarding, and what it does: [https://godbolt.org/z/dWMjvofz9](https://godbolt.org/z/dWMjvofz9)
