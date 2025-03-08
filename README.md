@@ -62,6 +62,7 @@
 - Video: [C++23: An Overview of Almost All New and Updated Features - Marc Gregoire](https://www.youtube.com/watch?v=Cttb8vMuq-Y)
      * Overview over C++23, really goes through the list and explains every feature briefly
 - Video: [Advanced Usage of the C++23 Stacktrace Library - James Pascoe](https://www.youtube.com/watch?v=rynny8wP3M4)
+     * Usage of the C++23 stacktrace library, explained in just over 20 minutes
 - Paper: [A Proposal to add stacktrace library (P0881)](https://wg21.link/P0881R7)
 - Paper: [Formatted output (P2093)](https://wg21.link/P2093R14)
 - Paper: [Text Formatting (P0645)](https://wg21.link/P0645R10)
