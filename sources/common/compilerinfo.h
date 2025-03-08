@@ -7,7 +7,9 @@
 #define MOP_SUPPORTS_BIND_BACK
 #endif
 
-#ifndef __GNUC__    // GCC will report supporting stacktrace, but requires special linker options to deliver
+// Currently only MSVC reliable reports support of stacktrace
+// If you have a non-MSVC compiler and you think it supports it, just remove the #ifdef _MSC_VER
+#ifdef _MSC_VER
   #ifdef __cpp_lib_stacktrace
   #define MOP_SUPPORTS_STACKTRACE
   #endif
