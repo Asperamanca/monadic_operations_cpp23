@@ -22,13 +22,17 @@
      * Mostly motivational talk why you should write more declarative code (and also how), not specific for C++. Entertaining.
 - Video: [Monads in Modern C++ - Georgi Koyrushki & Alistair Fisher](https://www.youtube.com/watch?v=cE_YaFMhTK8)
      * The inspiration for my own talk. Covers similar ground, but explains things a bit differently. Which one is better? Your call!
-### Monads specifically
+### Monads & Friends specifically
+- Article: [Your easy guide to Monads, Applicatives, & Functors](https://medium.com/@lettier/your-easy-guide-to-monads-applicatives-functors-862048d61610)
+     * Functor, Applicative (you haven't heard about that in my talk!) and monad explained, with code examples and nice animations
 - Article: [Using Monads in C++ to Solve Constraints (Part 1 of a 4-part series)](https://bartoszmilewski.com/2015/05/11/using-monads-in-c-to-solve-constraints-1-the-list-monad/)
      * Explains in detail how to combine two monads to solve a non-trivial puzzle, and highlights the benefits of the solution. Weaves in a lot of theoretical background.
 - Article: [You probably wrote half a monad by accident](https://gieseanw.wordpress.com/2024/06/25/you-probably-wrote-half-a-monad-by-accident/)
      * Short and entertaining, yet educational
 - Code sample: [Monads/Writer monad](https://rosettacode.org/wiki/Monads/Writer_monad)
      * Brief explanation of the writer monad, with example implementations in different languages
+- Video: [Applicative: The Forgotten Functional Pattern in C++ - Ben Deane](https://www.youtube.com/watch?v=At-b4PHNxMg)
+     * 'Applicative' is a functor with extra abilities. The video first explains what applicative means in Haskell, but argues that for C++, a different usage better fits the language.
 ### Ranges and Views
 - Video: [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland](https://www.youtube.com/watch?v=QoaVRQvA6hI)
      * So far my best primer if you want to use std::ranges
