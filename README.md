@@ -32,7 +32,7 @@
 - Code sample: [Monads/Writer monad](https://rosettacode.org/wiki/Monads/Writer_monad)
      * Brief explanation of the writer monad, with example implementations in different languages
 - Video: [Applicative: The Forgotten Functional Pattern in C++ - Ben Deane](https://www.youtube.com/watch?v=At-b4PHNxMg)
-     * 'Applicative' is a functor with extra abilities. The video first explains what applicative means in Haskell, but argues that for C++, a different usage better fits the language.
+     * 'Applicative' is a functor that can apply functions with more than one argument (the explanation is slightly different in languages built on currying, like Haskell). The video first explains what applicative means, first in Haskell then in C++.
 ### Ranges and Views
 - Video: [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland](https://www.youtube.com/watch?v=QoaVRQvA6hI)
      * So far my best primer if you want to use std::ranges
