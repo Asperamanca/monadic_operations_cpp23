@@ -5,6 +5,7 @@
 [PDF](MonadicOperationsInCpp23.pdf)
 ## Compiler error cheat sheet
 [PDF - Dark, presentation theme](CompilerErrorsCheatSheet_Dark.pdf)
+
 [PDF - Light, for printing](CompilerErrorsCheatSheet_Light.pdf)
 ## Code examples
 [Source code page](sources/README.md)
