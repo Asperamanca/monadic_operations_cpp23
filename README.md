@@ -3,6 +3,9 @@
 [ZIP](https://github.com/Asperamanca/monadic_operations_cpp23/archive/refs/heads/main.zip)
 ## Slides
 [PDF](MonadicOperationsInCpp23.pdf)
+## Compiler error cheat sheet
+[PDF - Dark, presentation theme](CompilerErrorsCheatSheet_Dark.pdf)
+[PDF - Light, for printing](CompilerErrorsCheatSheet_Light.pdf)
 ## Code examples
 [Source code page](sources/README.md)
 
