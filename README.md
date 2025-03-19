@@ -26,7 +26,7 @@
      * Mostly motivational talk why you should write more declarative code (and also how), not specific for C++. Entertaining.
 - Video: [Monads in Modern C++ - Georgi Koyrushki & Alistair Fisher](https://www.youtube.com/watch?v=cE_YaFMhTK8)
      * The inspiration for my own talk. Covers similar ground, but explains things a bit differently. Which one is better? Your call!
-### Monads & Friends specifically
+### Monads and Related Concepts
 - Article: [Your easy guide to Monads, Applicatives, & Functors](https://medium.com/@lettier/your-easy-guide-to-monads-applicatives-functors-862048d61610)
      * Functor, Applicative (you haven't heard about that in my talk!) and monad explained, with code examples and nice animations
 - Article: [Using Monads in C++ to Solve Constraints (Part 1 of a 4-part series)](https://bartoszmilewski.com/2015/05/11/using-monads-in-c-to-solve-constraints-1-the-list-monad/)
