@@ -1,7 +1,7 @@
 # Safe and Readable Code: Monadic Operations in C++23
 ## Where to find me
-[Mastodon](https://mastodon.social/@asperamanca)
-[Linkedin](https://www.linkedin.com/in/robert-schimkowitsch-74b482339?trk=contact-info)
+[Mastodon](https://mastodon.social/@asperamanca) 
+[Linkedin](https://www.linkedin.com/in/robert-schimkowitsch-74b482339?trk=contact-info) 
 [C++ User Group Vienna](https://cppusergroupvienna.org)
 ## Just download everything
 [ZIP](https://github.com/Asperamanca/monadic_operations_cpp23/archive/refs/heads/main.zip)
