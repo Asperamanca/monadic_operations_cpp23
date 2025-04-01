@@ -44,8 +44,10 @@
 ### Ranges and Views
 - Video: [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland](https://www.youtube.com/watch?v=QoaVRQvA6hI)
      * So far my best primer if you want to use std::ranges
-- Video: [Understanding the Filter View to Use it Right](https://www.youtube.com/watch?v=jR3WE-hAhCc)
+- Video: [Understanding the Filter View to Use it Right - Nikolai M. Josuttis](https://www.youtube.com/watch?v=jR3WE-hAhCc)
      * std::views::filter has lots of traps built-in. This talk helps you understand and avoid them.
+- Video: [Implementing Ranges and Views - Roi Barkan](https://m.youtube.com/watch?v=ngaty13aE9M)
+     * Covering more advanced topics of ranges and views, for example how you write your own custom view adapter
 - Video: [Rappel: Compose Algorithms, Not Iterators - Google's Alternative to Ranges](https://www.youtube.com/watch?v=itnyR9j8y6E)
      * Presents a library that utilizes an alternative approach to std::ranges. Since the library is not open-sourced (as of writing), the most important takeaway is the motivation not to use ranges in the first place, and that's quite interesting.
 - Paper: [The One Ranges Proposal (P0896)](https://wg21.link/P0896R4)
