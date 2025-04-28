@@ -3,6 +3,7 @@
 #include <numbers>
 #include <cmath>
 #include <thread>
+#include <chrono>
 using namespace std::chrono_literals;
 
 namespace mop
