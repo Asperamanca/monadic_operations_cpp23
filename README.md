@@ -5,7 +5,7 @@
 - [C++ User Group Vienna](https://cppusergroupvienna.org)
 ## Just download everything (<5 MB)
 [ZIP](https://github.com/Asperamanca/monadic_operations_cpp23/archive/refs/heads/main.zip)
-## Slides
+## Slides (ACCU 2025 version)
 [PDF](MonadicOperationsInCpp23.pdf)
 ## Compiler error cheat sheet
 [PDF - Dark, presentation theme](CompilerErrorsCheatSheet_Dark.pdf)
