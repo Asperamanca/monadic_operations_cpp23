@@ -1,7 +1,19 @@
 # Benchmark comparing std::ranges::views with classic raw loops
+## Test setup
 - 50 items in initial range
 - 1000 Iterations
-## Milliseconds for total run, per compiler 
+## System
+- Windows 11
+- AMD Ryzen 5 5500
+- 16 GB RAM
+## Compilers
+- MSVC 19.43 (Release /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++latest)
+- llvm-MinGW 18.1.6 (-O3 -DNDEBUG -std=gnu++23 -fansi-escape-codes -fcolor-diagnostics)
+- MinGW 13 (-O3 -DNDEBUG -std=gnu++23 -fdiagnostics-color=always)
+- MinGW 14 (-O3 -DNDEBUG -std=gnu++23 -fdiagnostics-color=always)
+If you think it's unfair to compare MSVC's O2 with O3 from other compilers...that's what I get when I configure "Release build" with C++23
+## Results  
+### Milliseconds for total run, per compiler 
 ```
 |                                             | MSVC 19.43 | llvm-MinGW 18.1.6 | MinGW 13 | MinGW 14 |
 | ------------------------------------------- | ---------- | ----------------- | -------- | -------- |
@@ -11,7 +23,7 @@
 | Like above, but with preallocated vector    |        557 |               406 |      378 |      367 |
 | View→Vector→Reduce                          |       1130 |              1880 |      829 |      954 |
 ```
-## Relative speed (Baseline = 1.0, greater is slower)
+### Relative speed (Baseline = 1.0, greater is slower)
 ```
 |                                             | MSVC 19.43 | llvm-MinGW 18.1.6 | MinGW 13 | MinGW 14 |
 | ------------------------------------------- | ---------- | ----------------- | -------- | -------- |
@@ -21,10 +33,7 @@
 | Like above, but with preallocated vector    |       9,13 |              8,12 |     5,18 |     5,03 |
 | View→Vector→Reduce                          |      18,52 |             37,60 |    11,36 |    13,07 |
 ```
-## Speed in nanoseconds per item in intermediate range
-- Windows 11
-- AMD Ryzen 5 5500
-- 16 GB RAM
+### Speed in nanoseconds per item in intermediate range
 ```
 |                                             | MSVC 19.43 | llvm-MinGW 18.1.6 | MinGW 13 | MinGW 14 |
 | ------------------------------------------- | ---------- | ----------------- | -------- | -------- |
