@@ -11,6 +11,7 @@
 - llvm-MinGW 18.1.6 (-O3 -DNDEBUG -std=gnu++23 -fansi-escape-codes -fcolor-diagnostics)
 - MinGW 13 (-O3 -DNDEBUG -std=gnu++23 -fdiagnostics-color=always)
 - MinGW 14 (-O3 -DNDEBUG -std=gnu++23 -fdiagnostics-color=always)
+
 If you think it's unfair to compare MSVC's O2 with O3 from other compilers...that's what I get when I configure "Release build" with C++23
 ## Results  
 ### Milliseconds for total run, per compiler 
