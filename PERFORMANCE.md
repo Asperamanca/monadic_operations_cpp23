@@ -24,13 +24,8 @@ etc.
 This is done with 3 levels of nesting, so  
  3 -> 1,2,3 -> 1,1,2,1,2,3 -> 1,1,1,2,1,1,2,1,2,3  
 etc.  
-This blows up the intermediate range nicely in a fashion that is not deterministic in order  
- (because the original input is random_shuffle'd every time)  
- but that is deterministic in which values exist.  
-Then, the intermediate values are folded to a single result, the results collected,  
- summed up and averaged, and the final result printed.  
-The point of the exercise is to prevent the compiler from optimizing away the whole loop  
- (which might happen if the results were never used, for example)  
+This blows up the intermediate range nicely in a fashion that is not deterministic in order (because the original input is random_shuffle'd every time) but that is deterministic in which values exist.  
+Then, the intermediate values are folded to a single result, the results collected, summed up and averaged, and the final result printed. The point of the exercise is to prevent the compiler from optimizing away the whole loop (which might happen if the results were never used, for example).  
 Only the segment which calculates the per-iteration result from the initial input is benchmarked.  
 ## Test implementations
 1. Classic loop to build intermediate vector, loop to accumulate result
