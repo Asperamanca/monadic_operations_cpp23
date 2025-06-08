@@ -71,7 +71,7 @@ Each gate accepts everything BUT a certain value:
 - Gate 1 rejects '1' but accepts any other number
 - Gate 2 rejects '2' but accepts any other number
 
-...and so on
+...and so on.  
 If a value is accepted, it is forwarded to the next gate. This is repeated for a number of input values and iterations. Because of the way the gates are configured, you can create a random sequence of numbers with a statistically clear rejection rate: Just choose the desired ration between numbers 1 to 5 (rejected) and numbers above 5 (accepted).  
 So, an all happy-path run will have (different) numbers 6 or higher. And all-sad-path run will have numbers 1 to 5. A 50:50 happy/sad path run will have an equal distribution of numbers 1 to 10.
 ## Test implementations
@@ -84,4 +84,23 @@ So, an all happy-path run will have (different) numbers 6 or higher. And all-sad
 - Input length: 10000 (each number passing through up to 5 gates, depending on rejection rate)
 - Number of iterations: 100
 - Rejection rates: 0%, 2%, 100%
-## Results
+## Results in microseconds for whole test run
+```
+|                   |               | No rejection | 2 % rejection | Always rejection |
+| ----------------- | ------------- | ------------ | ------------- | ---------------- |
+| MinGW 14          | Value-based   |         2130 |          2130 |             2130 |
+| llvm-MinGW 18.1.6 | Value-based   |         2840 |          2840 |             2840 |
+| MSVC 19.43        | Value-based   |         9020 |          9580 |             7660 |
+|                   |               |              |               |                  |
+| MinGW 14          | std::optional |         2130 |          2450 |             5900 |
+| llvm-MinGW 18.1.6 | std::optional |         3110 |          3750 |             3070 |
+| MSVC 19.43        | std::optional |         9860 |          1060 |            12250 |
+|                   |               |              |               |                  |
+| MinGW 14          | std::expected |         2140 |          2430 |             5610 |
+| llvm-MinGW 18.1.6 | std::expected |         4400 |          4060 |             7020 |
+| MSVC 19.43        | std::expected |        10240 |         10820 |            11610 |
+|                   |               |              |               |                  |
+| MinGW 14          | Exceptions    |         3930 |         28660 |          1320000 |
+| llvm-MinGW 18.1.6 | Exceptions    |         3070 |          4157 |          1920000 |
+| MSVC 19.43        | Exceptions    |         9270 |         52920 |          2230000 |
+```
