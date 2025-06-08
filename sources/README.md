@@ -23,7 +23,7 @@ Use of stacktrace is hard-disabled for GCC in downloadable sources. The feature 
 If you want to enable stacktrace for GCC, remove the protective #ifndef __GNUC__ in compilerinfo.h
 ## Compiler explorer links
 As mentioned above, each example only consists of one file. For that reason, it's typically good to start reading the example from the bottom (main function).
-The code compiler explorer does not support all compilers:
+The code on compiler explorer does not support all compilers:
 - clang cannot handle some examples due to lack of stacktrace support
 - GCC 14 works, but needs a special linker flag (-lstdc++exp)
 - Reasonably new version of MSVC also work
