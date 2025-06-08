@@ -47,7 +47,7 @@ If you need more portable code, take a look at the downloadable sources
 - Writer Monad: "Calculate & format area": [https://godbolt.org/z/r437Ea7bj](https://godbolt.org/z/r437Ea7bj)
 - Combine Continuation & Writer Monads: "Calculate & format area" (but reeeeaaaly slow): [https://godbolt.org/z/hbEaWjxj7](https://godbolt.org/z/hbEaWjxj7)
 - Performance: std::ranges::views vs. raw loops: [https://godbolt.org/z/Mc35KdPcP](https://godbolt.org/z/Mc35KdPcP)
-- Performance: std::optional and std::expected vs. other ways of error handling: [https://godbolt.org/z/eMev98bYh](https://godbolt.org/z/eMev98bYh)
+- Performance: std::optional and std::expected vs. other ways of error handling: [https://godbolt.org/z/zohKxjMoj](https://godbolt.org/z/zohKxjMoj)
 - Extra (not in slides): Trace constructor / destructor calls when using "classic function" interface (with out& parameter) [https://godbolt.org/z/Psa6svY1a](https://godbolt.org/z/Psa6svY1a)
 - Extra (not in slides): Trace constructor / destructor calls when just returning results [https://godbolt.org/z/9W3b9Y815](https://godbolt.org/z/9W3b9Y815)
 - Extra (not in slides): Why you need perfect forwarding, and what it does: [https://godbolt.org/z/dWMjvofz9](https://godbolt.org/z/dWMjvofz9)
