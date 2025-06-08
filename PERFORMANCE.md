@@ -1,6 +1,6 @@
 # Benchmark comparing std::ranges::views with classic raw loops
 
-
+```
                       Classic | Integrated |   Views  | Views2Vector |
 -------------------------------------------------------------------------------------------
 MinGW 14 Release -O3 -DNDEBUG -std=gnu++23 -fdiagnostics-color=always
@@ -17,3 +17,4 @@ MSVC 19.43 Release /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c
 -------------------------------------------------------------------------------------------
                       Classic | Integrated |   Views  | Views2Vector |
 
+```
