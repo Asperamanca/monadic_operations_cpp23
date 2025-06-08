@@ -11,7 +11,7 @@
 | Like above, but with preallocated vector    |        557 |               406 |      378 |      367 |
 | View→Vector→Reduce                          |       1130 |              1880 |      829 |      954 |
 ```
-## Relative speed (Baseline = 1.0)
+## Relative speed (Baseline = 1.0, greater is slower)
 ```
 |                                             | MSVC 19.43 | llvm-MinGW 18.1.6 | MinGW 13 | MinGW 14 |
 | ------------------------------------------- | ---------- | ----------------- | -------- | -------- |
