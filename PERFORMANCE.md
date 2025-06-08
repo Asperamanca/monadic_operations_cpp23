@@ -1,4 +1,4 @@
-# General setup
+# Benchmarks: General setup
 ## System
 - Windows 11
 - AMD Ryzen 5 5500
