@@ -22,7 +22,7 @@
 
 [Get me to the compiler explorer links](sources/README.md#compiler-explorer-links)
 ## Benchmarks
-[Benchmark page](performance.md)
+[Benchmark page](PERFORMANCE.md)
 ## References by Topic
 ### Functional and Declarative Programming (General and Theory)
 - Book: [Functional Programming in C++, by Ivan Čukić](https://www.manning.com/books/functional-programming-in-c-plus-plus?a_aid=FPinCXX&a_bid=441f12cc)
