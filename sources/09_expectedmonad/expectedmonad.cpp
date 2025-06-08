@@ -20,6 +20,47 @@ void CExpectedMonad::testForNegativeNumericValue()
     }
 }
 
+void CExpectedMonad::testShowExpectedUsage()
+{
+    auto fGetExpected = [](const bool bValid) -> std::expected<int,CErrorInfo>
+        {
+            if (bValid)
+            {
+                return {42};
+            }
+            else
+            {
+                return std::unexpected{CErrorInfo("Requested error type")};
+            }
+        };
+
+    auto exValue = fGetExpected(false);
+    if (exValue.has_value())
+    {
+        auto value = exValue.value();
+        std::ignore = value;
+    }
+    else
+    {
+        auto error = exValue.error();
+        std::ignore = error;
+    }
+
+    if (auto exValue2 = fGetExpected(true))
+    {
+        auto value2 = exValue2.value();
+        std::ignore = value2;
+    }
+    else
+    {
+        auto error2 = exValue2.error();
+        std::ignore = error2;
+    }
+
+    auto value3 = fGetExpected(false).value_or(21);
+    std::ignore = value3;
+}
+
 void CExpectedMonad::testExpectedTransformError()
 {
     // Start with expected with 'std::string' error information

@@ -16,6 +16,9 @@ public:
     // Main test function
     static void testForNegativeNumericValue();
 
+    // Show what you can do with expected
+    static void testShowExpectedUsage();
+
     // Shows how to use transform_error
     static void testExpectedTransformError();
 private:
