@@ -65,7 +65,7 @@ int main(int argc, char* argv[])
 
     // extra1_FunctorVectorDoublePowToStr();
 
-    // _x2_testDanglingReference();     // Depending on compiler / build options it may crash or worse.
+    // extra1_DanglingReference();     // Depending on compiler / build options it may crash or worse.
 
     return 0;
 }
