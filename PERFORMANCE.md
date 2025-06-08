@@ -86,21 +86,21 @@ So, an all happy-path run will have (different) numbers 6 or higher. And all-sad
 - Rejection rates: 0%, 2%, 100%
 ## Results in microseconds for whole test run
 ```
-|                   |               | No rejection | 2 % rejection | Always rejection |
-| ----------------- | ------------- | ------------ | ------------- | ---------------- |
-| MinGW 14          | Value-based   |         2130 |          2130 |             2130 |
-| llvm-MinGW 18.1.6 | Value-based   |         2840 |          2840 |             2840 |
-| MSVC 19.43        | Value-based   |         9020 |          9580 |             7660 |
-|                   |               |              |               |                  |
-| MinGW 14          | std::optional |         2130 |          2450 |             5900 |
-| llvm-MinGW 18.1.6 | std::optional |         3110 |          3750 |             3070 |
-| MSVC 19.43        | std::optional |         9860 |          1060 |            12250 |
-|                   |               |              |               |                  |
-| MinGW 14          | std::expected |         2140 |          2430 |             5610 |
-| llvm-MinGW 18.1.6 | std::expected |         4400 |          4060 |             7020 |
-| MSVC 19.43        | std::expected |        10240 |         10820 |            11610 |
-|                   |               |              |               |                  |
-| MinGW 14          | Exceptions    |         3930 |         28660 |          1320000 |
-| llvm-MinGW 18.1.6 | Exceptions    |         3070 |          4157 |          1920000 |
-| MSVC 19.43        | Exceptions    |         9270 |         52920 |          2230000 |
+|                   |               | 0% rejection | 2% rejection | 100% rejection |
+| ----------------- | ------------- | ------------ | ------------ | -------------- |
+| MinGW 14          | Value-based   |         2130 |         2130 |           2130 |
+| llvm-MinGW 18.1.6 | Value-based   |         2840 |         2840 |           2840 |
+| MSVC 19.43        | Value-based   |         9020 |         9580 |           7660 |
+|                   |               |              |              |                |
+| MinGW 14          | std::optional |         2130 |         2450 |           5900 |
+| llvm-MinGW 18.1.6 | std::optional |         3110 |         3750 |           3070 |
+| MSVC 19.43        | std::optional |         9860 |         1060 |          12250 |
+|                   |               |              |              |                |
+| MinGW 14          | std::expected |         2140 |         2430 |           5610 |
+| llvm-MinGW 18.1.6 | std::expected |         4400 |         4060 |           7020 |
+| MSVC 19.43        | std::expected |        10240 |        10820 |          11610 |
+|                   |               |              |              |                |
+| MinGW 14          | Exceptions    |         3930 |        28660 |        1320000 |
+| llvm-MinGW 18.1.6 | Exceptions    |         3070 |         4157 |        1920000 |
+| MSVC 19.43        | Exceptions    |         9270 |        52920 |        2230000 |
 ```
