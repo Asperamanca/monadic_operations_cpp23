@@ -9,7 +9,7 @@
 [PDF](MonadicOperationsInCpp23.pdf)
 ## Talk Versions
 - C++ On Sea, June 2025 (Upcoming)
-- ACCU, April 2025 ([Video available to ACCU members only](https://accu.programmingarchive.com/) - to be released publicly at a later date
+- ACCU, April 2025 ([Video available to ACCU members only](https://accu.programmingarchive.com/) - to be released publicly at a later date)
 - MUC++, March 2025 ([Youtube](https://www.youtube.com/watch?v=CdRTzECk9Bc)) - current best freely available video
 - C++ User Group Vienna, October 2024 ([Youtube](https://www.youtube.com/watch?v=B45bMSHcSKg)) - "Proto-Version"
 
