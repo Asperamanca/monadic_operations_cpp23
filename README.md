@@ -10,7 +10,8 @@
 ## Slides (ACCU 2025 version)
 [PDF](MonadicOperationsInCpp23_ACCU.pdf)
 ## Talk Versions
-- C++ On Sea, June 2025 (Upcoming)
+- Meeting C++, November 2025 (Talk not yet held)
+- C++ On Sea, June 2025 (Video Upcoming)
 - ACCU, April 2025 ([Youtube](https://www.youtube.com/watch?v=YUHbPDNtdiQ)) - current best freely available video
 - MUC++, March 2025 ([Youtube](https://www.youtube.com/watch?v=CdRTzECk9Bc))
 - C++ User Group Vienna, October 2024 ([Youtube](https://www.youtube.com/watch?v=B45bMSHcSKg)) - "Proto-Version"
