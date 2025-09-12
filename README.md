@@ -12,7 +12,7 @@
 ## Talk Versions
 - Meeting C++, November 2025 (Talk not yet held)
 - C++ On Sea, June 2025 ([Youtube](https://youtu.be/fyjJPwkVOuw)) - fixes some 'bugs' of the ACCU version, and add a section about performance at 1:01:42
-- ACCU, April 2025 ([Youtube](https://www.youtube.com/watch?v=YUHbPDNtdiQ)) - current best freely available video
+- ACCU, April 2025 ([Youtube](https://www.youtube.com/watch?v=YUHbPDNtdiQ)) - a bit slower than the C++ On Sea version
 - MUC++, March 2025 ([Youtube](https://www.youtube.com/watch?v=CdRTzECk9Bc))
 - C++ User Group Vienna, October 2024 ([Youtube](https://www.youtube.com/watch?v=B45bMSHcSKg)) - "Proto-Version"
 
