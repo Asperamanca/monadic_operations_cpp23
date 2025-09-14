@@ -91,6 +91,9 @@
 - Paper: [A Proposal to add stacktrace library (P0881)](https://wg21.link/P0881R7)
 - Paper: [Formatted output (P2093)](https://wg21.link/P2093R14)
 - Paper: [Text Formatting (P0645)](https://wg21.link/P0645R10)
+### Other related articles
+- Article: [Why can’t std::apply figure out which overload I intend to use? Only one of then will work!](https://devblogs.microsoft.com/oldnewthing/20250911-00/?p=111586)
+     * This article explains why the "wrap it in a lambda" trick works when passing an overloaded function into a functor or monad.
 ### Compiler support
 - [C++23 Compiler Support](https://en.cppreference.com/w/cpp/compiler_support/23)
 ## Replacement libraries
