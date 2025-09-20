@@ -69,6 +69,8 @@
      * Why use std::expected, and lots of examples on how to use it
 - Video: [The expected outcome, by Ivan Čukić](https://youtu.be/1O_t7rxuq0c)
      * About error handling, and std::expected in particular.
+- Video: [std::optional — Standardizing Optionals over References - A Case Study, by Steve Downey](https://www.youtube.com/watch?v=cSOzD78yQV4)
+     * In C++26, std::optional will also support references (std::optional<T&>). If you are curious, this video explains how it works, and what design choices were made (and why)
 - Paper: [Monadic operations for std::optional (P0798)](https://wg21.link/P0798R8)
 - Paper: [std::expected (P0323)](https://wg21.link/P0323R12)
 - Paper: [Monadic operations for std::expected (P2505)](https://wg21.link/P2505R5)
