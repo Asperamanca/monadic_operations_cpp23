@@ -75,6 +75,7 @@
 - Paper: [std::expected (P0323)](https://wg21.link/P0323R12)
 - Paper: [Monadic operations for std::expected (P2505)](https://wg21.link/P2505R5)
 - Paper: [Give std::optional Range Support (P3168)](https://wg21.link/P3168R2)
+- Paper: [std::optional<T&>](https://open-std.org/jtc1/sc22/wg21/docs/papers/2025/p2988r12.pdf)
  ### Continuations & Concurrency
  - Article: [Asynchronous APIs in Qt 6](https://www.qt.io/blog/asynchronous-apis-in-qt-6)
      * Explains monadic operations on QtConcurrent
