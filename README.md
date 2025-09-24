@@ -108,4 +108,5 @@ There are libraries you can use as replacement.
 - [Sy Brand's expected library](https://github.com/TartanLlama/expected): "By far the most popular implementation is Sy Brand’s, with over 500 stars on GitHub and extensive usage." (Quote from [P0323R10 - std::expected](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p0323r10.html#%F0%9F%92%9C))
 - [Boost optional](https://www.boost.org/doc/libs/1_86_0/libs/optional/doc/html/index.html): Optional with a monadic interface (look for "map" instead of "and_then", and it's partially missing in the docs)
 - [STX: C++17 & C++ 20 error-handling and utility extensions](https://github.com/lamarrr/STX): Contains an 'optional' and 'expected' implementation with monadic operations
+- [Flux - a C++20 library for sequence-oriented programming](https://github.com/tcbrindle/flux): An alternative to both std::ranges and Ranges v3, which promises both more safety and better performance
 
