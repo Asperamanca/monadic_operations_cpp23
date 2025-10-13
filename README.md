@@ -5,11 +5,12 @@
 - [C++ User Group Vienna](https://cppusergroupvienna.org)
 ## Just download everything (<16 MB)
 [ZIP](https://github.com/Asperamanca/monadic_operations_cpp23/archive/refs/heads/main.zip)
-## Slides (Meeting C++ version - shorter talk version)
+## Slides
+### Meeting C++ 2025 version - shorter talk version
 [PDF](MonadicOperationsInCpp23_MeetingCpp.pdf)
-## Slides (C++ On Sea 2025 version)
+### C++ On Sea 2025 version
 [PDF](MonadicOperationsInCpp23_CppOnSea.pdf)
-## Slides (ACCU 2025 version)
+### ACCU 2025 version
 [PDF](MonadicOperationsInCpp23_ACCU.pdf)
 ## Talk Versions
 - Meeting C++, November 2025 (Talk not yet held)
