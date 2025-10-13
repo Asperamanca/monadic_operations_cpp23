@@ -3,7 +3,7 @@
 - [Mastodon](https://mastodon.social/@asperamanca)
 - [Linkedin](https://www.linkedin.com/in/robert-schimkowitsch-74b482339?trk=contact-info)
 - [C++ User Group Vienna](https://cppusergroupvienna.org)
-## Just download everything (<13 MB)
+## Just download everything (<16 MB)
 [ZIP](https://github.com/Asperamanca/monadic_operations_cpp23/archive/refs/heads/main.zip)
 ## Slides (Meeting C++ version - shorter talk version)
 [PDF](MonadicOperationsInCpp23_MeetingCpp.pdf)
