@@ -5,12 +5,15 @@
 - [C++ User Group Vienna](https://cppusergroupvienna.org)
 ## Just download everything (<13 MB)
 [ZIP](https://github.com/Asperamanca/monadic_operations_cpp23/archive/refs/heads/main.zip)
+## Slides (Meeting C++ version - shorter talk version)
+[PDF](MonadicOperationsInCpp23_MeetingCpp.pdf)
 ## Slides (C++ On Sea 2025 version)
 [PDF](MonadicOperationsInCpp23_CppOnSea.pdf)
 ## Slides (ACCU 2025 version)
 [PDF](MonadicOperationsInCpp23_ACCU.pdf)
 ## Talk Versions
 - Meeting C++, November 2025 (Talk not yet held)
+- C++ Brno, October 2025 - Pre-premiere of the 'Meeting C++' version
 - C++ On Sea, June 2025 ([Youtube](https://youtu.be/fyjJPwkVOuw)) - fixes some 'bugs' of the ACCU version, and add a section about performance at 1:01:42
 - ACCU, April 2025 ([Youtube](https://www.youtube.com/watch?v=YUHbPDNtdiQ)) - a bit slower than the C++ On Sea version
 - MUC++, March 2025 ([Youtube](https://www.youtube.com/watch?v=CdRTzECk9Bc))
