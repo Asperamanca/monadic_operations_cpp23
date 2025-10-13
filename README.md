@@ -6,12 +6,9 @@
 ## Just download everything (<16 MB)
 [ZIP](https://github.com/Asperamanca/monadic_operations_cpp23/archive/refs/heads/main.zip)
 ## Slides
-### Meeting C++ 2025 version - shorter talk version
-[PDF](MonadicOperationsInCpp23_MeetingCpp.pdf)
-### C++ On Sea 2025 version
-[PDF](MonadicOperationsInCpp23_CppOnSea.pdf)
-### ACCU 2025 version
-[PDF](MonadicOperationsInCpp23_ACCU.pdf)
+- Meeting C++ 2025 version - shorter talk version: [PDF](MonadicOperationsInCpp23_MeetingCpp.pdf)
+- C++ On Sea 2025 version: [PDF](MonadicOperationsInCpp23_CppOnSea.pdf)
+- ACCU 2025 version: [PDF](MonadicOperationsInCpp23_ACCU.pdf)
 ## Talk Versions
 - Meeting C++, November 2025 (Talk not yet held)
 - C++ Brno, October 2025 - Pre-premiere of the 'Meeting C++' version
