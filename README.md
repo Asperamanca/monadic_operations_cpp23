@@ -10,7 +10,7 @@
 - C++ On Sea 2025 version: [PDF](MonadicOperationsInCpp23_CppOnSea.pdf)
 - ACCU 2025 version: [PDF](MonadicOperationsInCpp23_ACCU.pdf)
 ## Talk Versions
-- Meeting C++, November 2025 (Video upcoming) - shorter version, ([find the 'missing pieces' in the C++ on Sea version](https://youtu.be/fyjJPwkVOuw?si=ZhEv9FuVIgndAS-L&t=3033)
+- Meeting C++, November 2025 (Video upcoming) - shorter version, ([find the 'missing pieces' in the C++ on Sea version](https://youtu.be/fyjJPwkVOuw?si=ZhEv9FuVIgndAS-L&t=3033))
 - C++ Brno, October 2025 - Pre-premiere of the 'Meeting C++' version
 - C++ On Sea, June 2025 ([Youtube](https://youtu.be/fyjJPwkVOuw)) - fixes some 'bugs' of the ACCU version, and add a section about performance at 1:01:42
 - ACCU, April 2025 ([Youtube](https://www.youtube.com/watch?v=YUHbPDNtdiQ)) - a bit slower than the C++ On Sea version
